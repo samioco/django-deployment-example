@@ -1,0 +1,12 @@
+{% extends "basic_app/base.html" %}
+{% load mytags %}
+
+  {% block body_block %}
+    <h1>Welcome to 'INDEX'</h1>
+    <h1>Showing: Index.html</h1>
+
+    <h1>Template tags:</h1>
+    <h1>Cutting out 'world' from "hello world": {{ text|cutout:"world" }}</h1>
+    <h1>Cutting out 'hello' from "hello world": {{ text|cutout:"hello" }}</h1>
+    <h1>{{ number|add:99 }}</h1>
+  {% endblock %}
