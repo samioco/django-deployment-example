@@ -25,7 +25,7 @@ SECRET_KEY = 'xg!)-v7sk!^*g*g$nm^jhe05w6x#3nwku1yt6a$s=d0@h)+t2s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['samio.pythonanywhere.com']
+ALLOWED_HOSTS = ['https://samio.pythonanywhere.com']
 
 
 # Application definition
